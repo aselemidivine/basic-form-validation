@@ -47,7 +47,7 @@ const App = () => {
     {
       id: 4,
       name: "password",
-      type: "password",
+      type: "text",
       placeholder: "Password",
       errorMessage: "Password should be 8-20 characters and should include at least 1 letter, 1 number and 1 special character",
       label: "Password",
@@ -58,7 +58,7 @@ const App = () => {
     {
       id: 5,
       name: "confirmPassword",
-      type: "password",
+      type: "text",
       placeholder: "Confirm password",
       errorMessage: "Passwords don't match!",
       label: "Confirm password",
