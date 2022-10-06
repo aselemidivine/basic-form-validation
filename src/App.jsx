@@ -64,13 +64,12 @@ const App = () => {
       label: "Confirm password",
       pattern: values.password,
       required: true
-
     }
   ]
 
 
   const handleSubmit = (e) => {
-    
+
     e.preventDefault(); // this method prevents the automatic reloading of the page
   };
 
