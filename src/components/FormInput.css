@@ -1,0 +1,34 @@
+.formInput {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    /* width: 280px; */
+}
+ 
+input {
+    padding: 15px;
+    font-size: 18px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+label {
+    display: flex;
+    font-size: 18px;
+    margin-left: 15px;
+    /* color: #000; */
+    color: #fff;
+    
+}
+span{
+    font-size: 15px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+/* This input will be true when a user starts inputing values in the form */
+input:invalid[focused= "true" ] ~ span {
+    display: block;
+}
