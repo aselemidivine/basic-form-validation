@@ -70,6 +70,7 @@ const App = () => {
 
 
   const handleSubmit = (e) => {
+    
     e.preventDefault(); // this method prevents the automatic reloading of the page
   };
 
