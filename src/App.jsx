@@ -26,6 +26,7 @@ const App = () => {
       pattern: "^[A-Za-z0-9]{3,16}$",     //This is a regex code to handle the error message
       required: true
     },
+    
     {
       id: 2,
       name: "email",
